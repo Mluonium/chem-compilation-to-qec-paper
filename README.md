@@ -1,5 +1,5 @@
 # Reproduce: Quantum chemistry compilation to QEC
-This repository contains code for reproducing some parts of the paper [Compilation of a simple chemistry application to quantum error correction primitives](https://arxiv.org/pdf/2307.03233). This paper is a simple chemistry problem, specifically finding the ground state energy of dihydrogen using Quantum Phase-Estimation (QPE), and compiling this problem to Quantum Error Correction (QEC) methods.
+This repository contains code for reproducing some parts of the paper [Compilation of a simple chemistry application to quantum error correction primitives](https://arxiv.org/pdf/2307.03233). The repository of the original paper can be found [here](https://github.com/riverlane/h2_compilation/). This paper is a simple chemistry problem, specifically finding the ground state energy of dihydrogen using Quantum Phase-Estimation (QPE), and compiling this problem to Quantum Error Correction (QEC) methods.
 
 Our repository contains four main parts:
 1. Constructing the Hamiltonian
