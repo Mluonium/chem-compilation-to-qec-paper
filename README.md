@@ -9,7 +9,7 @@ Our repository contains four main parts:
 
 Each part has it's own `jupyter` file. Further, there is a helper file for the QPE circuits and (de)composition [`generate_qpe.py`](generate_qpe.py).
 
-### [Constructing the Hamiltonian]((hamiltonian.ipynb))
+### [Constructing the Hamiltonian](hamiltonian.ipynb)
 
 Contains a stepwise guide on constructing the hamiltonian. The steps can be roughly described as:
 - Molecular geometry
@@ -20,7 +20,7 @@ Contains a stepwise guide on constructing the hamiltonian. The steps can be roug
 - 4-qubit Pauli Hamiltonian
 - Tapering
 
-### [Trotterization]((Trotterization-QPE.ipynb))
+### [Trotterization](Trotterization-QPE.ipynb)
 
 To simulate a Hamiltonian, we need to be able to implement the time evolution operator for a time $t$, which is given by the unitary operator $U(t) = e^{-iH}$. Trotterization allows us to approximate this. Our notebook goes through first- and second-order Trotterization. We then use QPE to estimate the ground state energy of the Hamiltonian.
 
